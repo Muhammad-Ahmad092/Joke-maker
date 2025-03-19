@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav>
+    <div class="logo">😂 JokeHub</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+    <!-- Left Section -->
+    <div class="left-section">
+        <h1>Just Laugh and Enjoy Your Life</h1>
+        <button onclick="fetchJokes()">Make a Joke</button>
+    </div>
+
+    <!-- Right Section (Jokes Grid) -->
+    <div class="right-section" id="jokeGrid">
+        <div class="card">
+            <img src="./assets/img1.jpg" alt="Funny Image">
+            <p class="joke">Click the button for a joke!</p>
+        </div>
+        <div class="card">
+            <img src="./assets/img2.jpg" alt="Funny Image">
+            <p class="joke">Click the button for a joke!</p>
+        </div>
+        <div class="card">
+            <img src="./assets/img3.jpg" alt="Funny Image">
+            <p class="joke">Click the button for a joke!</p>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
